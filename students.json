@@ -1,0 +1,275 @@
+[
+	{
+		"name": "Anthony",
+		"fullname": "Anthony Babin",
+		"morningSunshine": {
+			"date": ""
+		},
+		"github": {
+			"username": "anthobab",
+			"link": "https://github.com/anthobab"
+		},
+		"projects": [],
+		"status": "student"
+	},
+	{
+		"name": "Baptiste",
+		"fullname": "Baptiste Dromer",
+		"morningSunshine": {
+			"date": ""
+		},
+		"github": {
+			"username": "bapturp",
+			"link": "https://github.com/bapturp"
+		},
+		"projects": [],
+		"status": "student"
+	},
+	{
+		"name": "Amelie",
+		"fullname": "Amelie Chabrand",
+		"morningSunshine": {
+			"date": ""
+		},
+		"github": {
+			"username": "amelichab",
+			"link": "https://github.com/ameliechab"
+		},
+		"projects": [],
+		"status": "student"
+	},
+	{
+		"name": "Chamseddine",
+		"fullname": "Chamseddine El Mohsni",
+		"morningSunshine": {
+			"date": ""
+		},
+		"github": {
+			"username": "",
+			"link": ""
+		},
+		"projects": [],
+		"status": "student"
+	},
+	{
+		"name": "Leo",
+		"fullname": "Leo Genuit",
+		"morningSunshine": {
+			"date": ""
+		},
+		"github": {
+			"username": "leogenuit",
+			"link": "https://github.com/leogenuit"
+		},
+		"projects": [],
+		"status": "student"
+	},
+	{
+		"name": "Guilhem",
+		"fullname": "Guilhem Martin Saint Léon",
+		"morningSunshine": {
+			"date": ""
+		},
+		"github": {
+			"username": "guilhem1492",
+			"link": "https://github.com/guilhem1492"
+		},
+		"projects": [],
+		"status": "student"
+	},
+	{
+		"name": "Hugo",
+		"fullname": "Hugo Violas",
+		"morningSunshine": {
+			"date": ""
+		},
+		"github": {
+			"username": "hugoviolas",
+			"link": "https://github.com/hugoviolas"
+		},
+		"projects": [],
+		"status": "student"
+	},
+	{
+		"name": "Ines",
+		"fullname": "Ines Zallouz",
+		"morningSunshine": {
+			"date": ""
+		},
+		"github": {
+			"username": "inesza",
+			"link": "https://github.com/inesza"
+		},
+		"projects": [],
+		"status": "student"
+	},
+	{
+		"name": "Jeanne",
+		"fullname": "Jeanne Lefevre",
+		"morningSunshine": {
+			"date": ""
+		},
+		"github": {
+			"username": "Janittto",
+			"link": "https://github.com/Janittto"
+		},
+		"projects": [],
+		"status": "student"
+	},
+	{
+		"name": "Justine",
+		"fullname": "Justine Sarzi",
+		"morningSunshine": {
+			"date": ""
+		},
+		"github": {
+			"username": "jsarzi",
+			"link": "https://github.com/jsarzi"
+		},
+		"projects": [],
+		"status": "student"
+	},
+	{
+		"name": "Killian",
+		"fullname": "Killian Ake",
+		"morningSunshine": {
+			"date": ""
+		},
+		"github": {
+			"username": "",
+			"link": ""
+		},
+		"projects": [],
+		"status": "student"
+	},
+	{
+		"name": "Lucile",
+		"fullname": "Lucile Tronczyk",
+		"morningSunshine": {
+			"date": ""
+		},
+		"github": {
+			"username": "LucileTech",
+			"link": "https://github.com/LucileTech"
+		},
+		"projects": [],
+		"status": "student"
+	},
+	{
+		"name": "Maurine",
+		"fullname": "Maurine Cornillon",
+		"morningSunshine": {
+			"date": ""
+		},
+		"github": {
+			"username": "maurinecornillon",
+			"link": "https://github.com/maurinecornillon"
+		},
+		"projects": [],
+		"status": "student"
+	},
+	{
+		"name": "Olesya",
+		"fullname": "Olesya Demyanova",
+		"morningSunshine": {
+			"date": ""
+		},
+		"github": {
+			"username": "",
+			"link": ""
+		},
+		"projects": [],
+		"status": "student"
+	},
+	{
+		"name": "Olympe",
+		"fullname": "Olympe Lespagnon",
+		"morningSunshine": {
+			"date": ""
+		},
+		"github": {
+			"username": "olxmpe",
+			"link": "https://github.com/olxmpe"
+		},
+		"projects": [],
+		"status": "student"
+	},
+	{
+		"name": "Celine",
+		"fullname": "Celine Poinson",
+		"morningSunshine": {
+			"date": ""
+		},
+		"github": {
+			"username": "cpnsn",
+			"link": "https://github.com/cpnsn"
+		},
+		"projects": [],
+		"status": "student"
+	},
+	{
+		"name": "Sam",
+		"fullname": "Sam Sinz",
+		"morningSunshine": {
+			"date": ""
+		},
+		"github": {
+			"username": "samsinz",
+			"link": "https://github.com/samsinz"
+		},
+		"projects": [],
+		"status": "student"
+	},
+	{
+		"name": "Shruti",
+		"fullname": "Shruti Sekhar",
+		"morningSunshine": {
+			"date": ""
+		},
+		"github": {
+			"username": "Sshaker2",
+			"link": "https://github.com/Sshaker2"
+		},
+		"projects": [],
+		"status": "student"
+	},
+	{
+		"name": "Vitchet",
+		"fullname": "Uk Vitchet",
+		"morningSunshine": {
+			"date": ""
+		},
+		"github": {
+			"username": "VitchetUK",
+			"link": "https://github.com/VitchetUK"
+		},
+		"projects": [],
+		"status": "student"
+	},
+	{
+		"name": "Vishnu Sreekumar",
+		"fullname": "Vishnu",
+		"morningSunshine": {
+			"date": ""
+		},
+		"github": {
+			"username": "VishnuSobhana",
+			"link": "https://github.com/VishnuSobhana"
+		},
+		"projects": [],
+		"status": "student"
+	},
+	{
+		"name": "Yasemin Sabeva",
+		"fullname": "Yasemin",
+		"morningSunshine": {
+			"date": ""
+		},
+		"github": {
+			"username": "yaseminsabeva",
+			"link": "https://github.com/yaseminsabeva"
+		},
+		"projects": [],
+		"status": "student"
+	}
+]
