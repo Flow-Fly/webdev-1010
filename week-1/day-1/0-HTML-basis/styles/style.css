@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	color: white;
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	translate: -50% -50%;
+}
+
+header {
+	position: relative;
+	background-image: url(https://images.unsplash.com/photo-1533738363-b7f9aef128ce);
+	background-size: cover;
+	background-position: center;
+	height: 400px;
+}
+
+html {
+	scroll-behavior: smooth;
+	font-family: "Poppins", sans-serif;
+}
+
+main {
+	padding: 0 10vw;
+}
+
+a {
+	color: aliceblue;
+	text-decoration: none;
+}
+
+.block {
+	background-color: dodgerblue;
+}
+span {
+	background-color: black;
+	color: whitesmoke;
+}
+
+.box {
+	height: 100px;
+	width: 100px;
+	background-color: magenta;
+}
+
+span.box {
+	display: inline-block;
+	background-color: blue;
+	position: relative;
+}
+
+.special {
+	background-color: dodgerblue;
+	/* margin-top: 50px;
+	margin-right: 20px;
+	margin-bottom: 100px;
+	margin-left: 2px; */
+
+	/* margin: 50px 20px 100px 2px; */
+	margin: 5px 50px;
+	padding: 20px;
+}
+
+.box div {
+	width: 50%;
+	background-color: whitesmoke;
+}
+
+.close {
+	position: absolute;
+	top: 2px;
+	right: 2px;
+}
+
+picture {
+	height: 200px;
+	width: 200px;
+	display: inline-block;
+	border: 2px solid black;
+	border-radius: 50%;
+	overflow: hidden;
+}
+picture img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
