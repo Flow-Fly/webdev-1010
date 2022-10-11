@@ -1,0 +1,57 @@
+[href$="fr"]::before {
+	content: "🇫🇷  ";
+}
+[href$="be"]::after {
+	content: "   🇫🇧🇪";
+}
+[href$="br"]::before {
+	content: "🇫🇧🇷 ";
+}
+
+[href*="git"] {
+	font-size: 1.5rem;
+}
+
+h2#subtitle.colorful {
+	color: green;
+}
+
+article > h2#subtitle {
+	color: violet;
+}
+
+article h2 {
+	color: blue;
+}
+
+article div {
+	border: 1px solid black;
+	padding: 1rem;
+}
+
+article h2,
+/* Not supported in FireFox */
+/* article div:has(> h2) {
+	background-color: gray;
+} */
+
+/* section > article:first-child > h2 {
+	color: violet;
+	font-size: 1.2rem;
+} */
+
+#list-of-siblings > li:first-child {
+	text-transform: uppercase;
+}
+
+#list-of-siblings > #first + li {
+	opacity: 0.4;
+}
+
+#list-of-siblings > li:first-child ~ li {
+	color: rgb(146, 34, 83);
+}
+
+span {
+	height: 200px;
+}
