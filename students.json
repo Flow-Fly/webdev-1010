@@ -140,7 +140,7 @@
       "link": ""
     },
     "projects": [],
-    "status": "student"
+    "status": "deferred"
   },
   {
     "name": "Lucile",
@@ -247,8 +247,8 @@
     "status": "student"
   },
   {
-    "name": "Vishnu Sreekumar",
-    "fullname": "Vishnu",
+    "name": "Vishnu",
+    "fullname": "Vishnu Sreekumar",
     "morningSunshine": {
       "date": "2022-10-20T00:00:00.000Z"
     },
@@ -260,8 +260,8 @@
     "status": "student"
   },
   {
-    "name": "Yasemin Sabeva",
-    "fullname": "Yasemin",
+    "name": "Yasemin",
+    "fullname": "Yasemin Sabeva",
     "morningSunshine": {
       "date": "2022-11-09T00:00:00.000Z"
     },
