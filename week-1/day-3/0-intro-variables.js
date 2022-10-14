@@ -9,14 +9,14 @@
  * Boolean
  * null
  * undefined
+ * Object
+ *  - Array
+ *  - Object
+ *  Function (which is an Object aswell)
  *
  * BigInt
  * Symbols
  *
- * Object
- *  - Array
- *  - Object
- *  - function
  */
 
 // Name of the variable - Value
