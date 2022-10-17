@@ -4050,3 +4050,44 @@ const pokemons = [
 		},
 	},
 ]
+
+class Pokemon {
+	constructor(name, type, health) {
+		this.name = name
+		this.type = type
+		this.health = health
+	}
+
+	displayInfos() {
+		console.log(`${this.name}, ${this.type}, ${this.health}`)
+	}
+}
+
+// Classic loop
+
+// const pokemonArray = []
+
+// for (const pokemon of pokemons) {
+// 	const currentPokemon = new Pokemon(
+// 		pokemon.name.french,
+// 		pokemon.type,
+// 		pokemon.base.HP
+// 	)
+// 	pokemonArray.push(currentPokemon)
+// }
+
+// console.log(pokemonArray)
+
+const pokemonArray = pokemons.map((machin) => {
+	// console.log(machin)
+	const currentPokemon = new Pokemon(
+		machin.name.french,
+		machin.type,
+		machin.base.HP
+	)
+	return currentPokemon
+})
+// console.log(pokemonArray.length)
+// console.log(pokemons.length)
+
+pokemonArray[Math.floor(Math.random() * pokemonArray.length)].displayInfos()
