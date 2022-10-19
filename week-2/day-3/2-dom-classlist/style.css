@@ -1,0 +1,48 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+}
+
+div {
+	border: 1px solid black;
+	border-radius: 0.25rem;
+	padding: 0.5rem;
+}
+
+picture {
+	display: inline-block;
+}
+
+.small {
+	width: 50px;
+}
+
+.medium {
+	width: 100px;
+}
+
+.large {
+	width: 150px;
+}
+
+img {
+	object-fit: cover;
+	width: 100%;
+}
+
+.rotate {
+	animation: rotateThatImage 1.5s infinite ease-in-out;
+}
+
+@keyframes rotateThatImage {
+	from {
+		rotate: 0deg;
+	}
+	to {
+		rotate: 359deg;
+	}
+}
+
+.hidden {
+	display: none;
+}
