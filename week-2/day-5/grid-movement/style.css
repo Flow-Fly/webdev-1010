@@ -1,0 +1,23 @@
+#game {
+	display: grid;
+	grid-template-rows: repeat(10, 1fr);
+	grid-template-columns: repeat(10, 1fr);
+	width: 500px;
+}
+
+.cell {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 50px;
+	aspect-ratio: 1;
+	border: 1px solid black;
+}
+
+.player {
+	background-color: red;
+}
+
+.bad-guy {
+	background-color: yellow;
+}
