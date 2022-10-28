@@ -1,0 +1,105 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+@font-face {
+	font-family: "Halloween";
+	src: url(./Halloween.ttf);
+}
+
+html {
+	font-family: "Halloween";
+	background-color: rgb(20, 20, 20);
+	color: rgb(255, 115, 0);
+}
+p {
+	font-size: 1.5rem;
+}
+
+h1 {
+	font-size: 5rem;
+	padding-block: 2rem;
+	text-align: center;
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 4rem;
+}
+
+.student {
+	position: relative;
+	flex-basis: 400px;
+	height: 9rem;
+	/* border-radius: 0.5rem; */
+	background: linear-gradient(
+		90deg,
+		rgb(255, 93, 6) 0%,
+		rgb(60, 34, 3) 50%,
+		rgb(255, 93, 6) 100%
+	);
+	background-size: 200% 200%;
+	animation: slide 2s linear infinite;
+}
+
+@keyframes slide {
+	from {
+		background-position: 0% 0%;
+	}
+	to {
+		background-position: 200% 0%;
+	}
+}
+
+.student::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	max-width: 100%;
+	max-height: 100%;
+	background-color: rgb(26, 11, 30);
+	inset: 2px;
+}
+
+.content {
+	padding: 1.5rem;
+	position: relative;
+	max-height: 100%;
+	z-index: 2;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 1rem;
+}
+
+a {
+	color: whitesmoke;
+	text-decoration: none;
+}
+
+.student:has(a:hover) {
+	animation: 150ms shake ease infinite;
+}
+
+@keyframes shake {
+	0% {
+		translate: 0px 0px;
+	}
+	25% {
+		translate: 7px 0px;
+	}
+	50% {
+		translate: 5px 0px;
+	}
+	75% {
+		translate: -7px 0px;
+	}
+	100% {
+		translate: -5px 0px;
+	}
+}
