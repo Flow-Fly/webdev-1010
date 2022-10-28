@@ -14,8 +14,9 @@ html {
 	background-color: rgb(20, 20, 20);
 	color: rgb(255, 115, 0);
 }
-p {
-	font-size: 1.5rem;
+
+h2 {
+	font-size: 2rem;
 }
 
 h1 {
@@ -29,6 +30,8 @@ h1 {
 	flex-wrap: wrap;
 	justify-content: center;
 	gap: 4rem;
+	max-width: 70%;
+	margin: auto;
 }
 
 .student {
@@ -79,6 +82,8 @@ h1 {
 
 a {
 	color: whitesmoke;
+	letter-spacing: 2px;
+	font-size: 1.2rem;
 	text-decoration: none;
 }
 
