@@ -1,0 +1,15 @@
+{
+  "name": "0-node-basis",
+  "version": "1.0.0",
+  "description": "My very first npm instance",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "squad-1010",
+  "license": "MIT",
+  "dependencies": {
+    "cat-names": "^3.1.0",
+    "dog-names": "^2.1.0"
+  }
+}
