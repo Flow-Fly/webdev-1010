@@ -1,0 +1,13 @@
+<div class="container">
+
+  {{#each characters}}
+
+  {{> oneCharacter this}}
+  {{!-- <div class="card">
+    <picture><img src="{{this.image}}" alt="{{this.name}}" /></picture>
+    <p>{{@index}} {{this.name}}</p>
+  </div> --}}
+
+  {{/each}}
+
+</div>

@@ -1,0 +1,14 @@
+{{#if isAdmin}}
+<h1>Welcome admin !</h1>
+{{else}}
+<h1>Who are you??</h1>
+{{/if}}
+
+
+{{#each cat}}
+{{#if @first}}
+<h1>{{@key}} {{this}}</h1>
+{{else}}
+<p>{{@key}} {{this}}</p>
+{{/if}}
+{{/each}}
