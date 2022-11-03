@@ -4,7 +4,7 @@
 
 - In the folder you'll need to use the terminal to execute `npm init -y`
 - Install express
-- create a `.gitignore` file and specify to ignore `mode_modules`
+- create a `.gitignore` file and specify to ignore `node_modules`
 - in your index.js
   - require express
   - create app from express

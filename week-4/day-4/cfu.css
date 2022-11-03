@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Varela+Round&display=swap');
+
+@font-face {
+  font-family: 'Paddington';
+  src: url('../../fonts/Paddington.otf');
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Paddington';
+}
+
+header {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  width: 100vw;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Varela Round';
+  font-size: calc(1rem + 2vw);
+  padding: 0.25rem;
+  margin: 0;
+  color: hsla(65, 97%, 66%, 0.95);
+  background-color: hsla(260, 81%, 53%, 0.75);
+  mix-blend-mode: multiply;
+  background-blend-mode: multiply;
+}
+
+ul {
+  font-weight: normal;
+  font-size: calc(0.75rem + 3vw);
+  font-family: 'Varela Round';
+}
+
+main {
+  background-color: rgba(211, 190, 69, 0.673);
+  color: red;
+}
+
+section {
+  color: ghostwhite;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1vw;
+}
+section h2 {
+  font-size: calc(1rem + 4vw);
+  text-align: center;
+}
+section h3 {
+  font-size: calc(0.75rem + 3vw);
+  text-align: center;
+}
+
+section:nth-of-type(2n) {
+  background-color: hsl(82, 39%, 42%);
+}
+section:nth-of-type(2n + 1) {
+  background-color: hsl(198, 39%, 42%);
+}
+
+/* class selectors */
+.special {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.hidden {
+  display: none;
+}
+
+/* combine classes */
+.special.hidden.message {
+  display: block;
+}
+
+#extra-info {
+  border: 10px rgb(130, 16, 16) solid;
+}
+
+.special a {
+  color: rgba(211, 190, 69);
+}
+
+picture {
+  display: block;
+  /* Centre images inside picture */
+  text-align: center;
+}
+
+picture img {
+  /* Let it be as wide as possible */
+  max-width: 100%;
+  /* Let it grow relative to its width */
+  height: auto;
+}
+
+p {
+  font-family: 'Varela Round';
+  font-size: calc(1.5rem + 1.5vw);
+  text-align: center;
+  margin: 0;
+}
+p code {
+  color: black;
+}
+p.subtitle {
+  font-size: calc(2rem + 2vw);
+}
+pre {
+  font-size: min(calc(1rem + 1vw), calc(0.5rem + 1.5vw));
+}
+
+.flex-row {
+  display: flex;
+  align-items: center;
+}
+
+body {
+  counter-reset: sections;
+}
+
+section {
+  position: relative;
+}
+
+section:not(:first-of-type)::after {
+  counter-increment: sections;
+  position: absolute;
+  left: 0;
+  font-size: calc(2rem + 2vw);
+  opacity: 0.5;
+  padding: 0.5em;
+  bottom: 0;
+  content: counter(sections);
+}
+
+a {
+  color: inherit;
+}
+
+/* Additional override styles */
+
+body {
+  font-family: 'Varela Round';
+}
+.paddington {
+  font-family: 'Paddington';
+}
+
+section:nth-of-type(7n) {
+  background-color: hsl(280, 59%, 42%);
+}
+section:nth-of-type(7n + 1) {
+  background-color: hsl(230, 59%, 42%);
+}
+section:nth-of-type(7n + 2) {
+  background-color: hsl(130, 59%, 42%);
+}
+section:nth-of-type(7n + 6) {
+  background-color: hsl(330, 59%, 42%);
+}
+section:nth-of-type(7n + 4) {
+  background-color: hsl(0, 59%, 42%);
+}
+section:nth-of-type(7n + 5) {
+  background-color: hsl(50, 79%, 62%);
+  color: black;
+}
+section:nth-of-type(7n + 3) {
+  background-color: hsl(300, 69%, 42%);
+}
+
+ol li {
+  display: list-item;
+  font-size: 4rem;
+}
+p > code {
+  color: inherit;
+}
+
+code {
+  padding-left: 1rem;
+}

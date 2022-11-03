@@ -8,7 +8,10 @@ app.use(express.static(__dirname + "/public"))
 
 app.set("view engine", "hbs")
 
-app.get("/", (req, res) => {
+app.get("/", async (req, res) => {
+	const rawResponse = await fetch("https://pokeapi.co/api/v2/pokemon")
+	const { results: pokemon } = await rawResponse.json()
+	console.log(pokemon)
 	res.render("main", {
 		title: "Main page",
 		style: ["main.css"],
