@@ -1,0 +1,15 @@
+<div class="container">
+
+	{{#each allDucks}}
+
+		<div class="card" style="background-color:{{this.color}} ;">
+			<picture>
+				<img src="{{this.picture}}" alt="{{this.name}}" />
+			</picture>
+			<p>Name: {{this.name}}</p>
+			<p><a href="/rubberducks/{{this._id}}">View more</a></p>
+		</div>
+
+	{{/each}}
+
+</div>

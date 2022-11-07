@@ -1,0 +1,37 @@
+<form
+	action="/rubberducks"
+	method="post"
+	enctype="application/x-www-form-urlencoded"
+>
+
+	<div>
+		<label for="name">Name: </label>
+		<input type="text" id="name" name="name" />
+	</div>
+	<div>
+		<label for="color">Color: </label>
+		<input type="text" id="color" name="color" />
+	</div>
+	<div>
+		<label for="material">Material</label>
+		<select name="material" id="material">
+			<option selected disabled value="-1">Select a material</option>
+			<option value="plastic">plastic</option>
+			<option value="gold">gold</option>
+			<option value="metal">metal</option>
+			<option value="rubber">rubber</option>
+			<option value="diamond">diamond</option>
+			<option value="wood">wood</option>
+		</select>
+	</div>
+	<div>
+		<label for="age">Age: </label>
+		<input type="number" id="age" name="age" />
+	</div>
+	<div>
+		<label for="picture">Picture: </label>
+		<input type="text" id="picture" name="picture" />
+	</div>
+
+	<button>Create</button>
+</form>
