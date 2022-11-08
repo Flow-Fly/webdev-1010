@@ -1,0 +1,21 @@
+<ul>
+
+	{{#each allUsers}}
+
+		<li>
+			<p>{{this.username}}</p>
+			<ul>
+				{{#each this.pets}}
+					<li>
+
+						<p>{{this.name}}</p>
+
+					</li>
+
+				{{/each}}
+			</ul>
+		</li>
+
+	{{/each}}
+
+</ul>

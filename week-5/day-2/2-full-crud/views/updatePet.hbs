@@ -1,0 +1,19 @@
+<form action="/pets/{{myPet._id}}/update" method="post">
+
+	<input type="text" name="name" placeholder="Name: " value="{{myPet.name}}" />
+
+	<select name="petType" id="" defaultValue="{{myPet.petType}}">
+		<option
+			selected
+			disabled
+			value="{{myPet.petType}}"
+		>{{myPet.petType}}</option>
+		<option value="dog">dog</option>
+		<option value="cat">cat</option>
+		<option value="bird">bird</option>
+
+	</select>
+
+	<button>Update a pet</button>
+
+</form>

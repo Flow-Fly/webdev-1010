@@ -1,0 +1,12 @@
+<ul>
+	{{#each allPets}}
+		<li>
+			<a href="/pets/{{this._id}}">
+				{{this.name}}
+			</a>
+			is a
+			{{this.petType}}.
+		</li>
+
+	{{/each}}
+</ul>
