@@ -1,0 +1,23 @@
+[
+	{
+		"name": "LazyOne",
+		"color": "yellow",
+		"material": "plastic",
+		"age": 24,
+		"picture": "https://amsterdamduckstore.com/wp-content/uploads/2021/01/Wellness-rubber-duck-front-Amsterdam-Duck-Store-400x400.jpg"
+	},
+	{
+		"name": "Worker",
+		"color": "green",
+		"material": "wood",
+		"age": 42,
+		"picture": "https://amsterdamduckstore.com/wp-content/uploads/2017/09/Farmer-rubber-duck-front-Amsterdam-Duck-Store-400x400.jpg"
+	},
+	{
+		"name": "Guard",
+		"color": "red",
+		"material": "gold",
+		"age": 35,
+		"picture": "https://amsterdamduckstore.com/wp-content/uploads/2015/07/british-rubber-duck-front-e1569574622812-400x400.jpg"
+	}
+]
