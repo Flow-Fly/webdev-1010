@@ -1,6 +1,7 @@
 const router = require("express").Router()
 const Rubberduck = require("./../models/Rubberduck.model")
 const mongoose = require("mongoose")
+const { isLoggedIn } = require("./../middlewares/middlewares")
 
 /**
  * All of those routes are prefixed with
@@ -19,9 +20,14 @@ router.get("/search", async (req, res) => {
 	res.render("rubberduckList", { allDucks: filteredDucks })
 })
 
-router.get("/create", (req, res) => {
+router.get("/create", isLoggedIn, log, log, log, (req, res) => {
 	res.render("createDuck")
 })
+
+function log(req, res, next) {
+	console.log("hey!")
+	next()
+}
 
 // ObjectId validation using RegEx
 // /:id([a-f0-9]{24})

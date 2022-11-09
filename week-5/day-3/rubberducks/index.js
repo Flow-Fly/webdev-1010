@@ -17,12 +17,7 @@ app.set("trust proxy", 1)
 app.use(
 	session({
 		secret: process.env.SESSION_SECRET,
-		resave: true,
-		saveUninitialized: false,
 		cookie: {
-			sameSite: "none",
-			secure: true,
-			httpOnly: true,
 			maxAge: 1000 * 60 * 60,
 		},
 		store: MongoStore.create({
@@ -35,10 +30,18 @@ app.use(express.static(__dirname + "/public"))
 app.set("view engine", "hbs")
 hbs.registerPartials(__dirname + "/views/partials")
 
-app.use((req, res, next) => {
-	console.log(req.session)
-	next()
-})
+// app.use((req, res, next) => {
+// 	if (req.session.currentUser) {
+// 		res.locals.isLoggedIn = true
+// 		res.locals.currentUser = req.session.currentUser
+// 	}
+// 	next()
+// })
+
+const { exposeUserToView } = require("./middlewares/middlewares")
+
+app.use(exposeUserToView)
+
 try {
 	app.use("/", require("./routes/index.route"))
 } catch (error) {
