@@ -20,8 +20,9 @@ git checkout -b name-of-your-branch
 > Let's protect the main branch!
 <img src="https://i.imgur.com/SvNc5x7.png"/>
 > - Branch name pattern should be main (or master if using master)
+> - Hello Hello Hello Hello Hello Hello Hello Hello Hello Hello 
 > - Check Require a pull request before merging 
-> - Check include administrators
+> - I live for chaos
 
 **Congrats, you can't push to main anymore! 🥳**
 
