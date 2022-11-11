@@ -22,12 +22,14 @@ git checkout -b name-of-your-branch
 ## Debug-zone
 
 - I pushed my code to main/master intead of my branch!
+
   > Let's protect the main branch!
   > <img src="https://i.imgur.com/SvNc5x7.png"/>
   >
   > - Branch name pattern should be main (or master if using master)
   > - Check Require a pull request before merging
   > - Do not allow bypassing the above settings
+
 
 **Congrats, you can't push to main anymore! 🥳**
 
