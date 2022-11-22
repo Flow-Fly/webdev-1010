@@ -1,0 +1,15 @@
+.PokeCard {
+	border-radius: 0.5rem;
+}
+.PokeCard picture {
+	display: inline-block;
+	height: 4rem;
+	width: 4rem;
+	overflow: hidden;
+	border-radius: 50%;
+}
+.PokeCard img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}

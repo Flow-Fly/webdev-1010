@@ -17,6 +17,8 @@ app.set("trust proxy", 1)
 app.use(
 	session({
 		secret: process.env.SESSION_SECRET,
+		saveUninitialized: false,
+		resave: false,
 		cookie: {
 			maxAge: 1000 * 60 * 60,
 		},
@@ -42,11 +44,7 @@ const { exposeUserToView } = require("./middlewares/middlewares")
 
 app.use(exposeUserToView)
 
-try {
-	app.use("/", require("./routes/index.route"))
-} catch (error) {
-	console.log(error)
-}
+app.use("/", require("./routes/index.route"))
 
 app.use((err, req, res, next) => {
 	console.log(err)

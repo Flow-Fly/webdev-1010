@@ -10,6 +10,7 @@ const { isLoggedIn } = require("./../middlewares/middlewares")
 
 router.get("/", async (req, res) => {
 	const allDucks = await Rubberduck.find()
+	// res.locals.allDucks = allDucks
 	res.render("rubberduckList", { allDucks })
 })
 
@@ -45,7 +46,7 @@ router.get("/:id", async (req, res) => {
 	}
 })
 
-router.post("/create", async (req, res) => {
+router.post("/create", isLoggedIn, async (req, res) => {
 	const { name, color, material, age, picture } = req.body
 
 	const newDuck = await Rubberduck.create({

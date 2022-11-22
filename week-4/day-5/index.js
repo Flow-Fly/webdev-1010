@@ -36,6 +36,16 @@ const projectSchema = new Schema({
 	},
 })
 
+const addressSchema = new Schema({
+	city: String,
+	zipCode: Number,
+})
+
+const userSchema = new Schema({
+	name: String,
+	address: addressSchema,
+})
+
 const studentSchema = new Schema({
 	name: {
 		required: true,

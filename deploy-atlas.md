@@ -1,12 +1,13 @@
 # MONGO DB
 
 ![mongodb](https://miro.medium.com/max/1000/1*xOVUR3DMDUfaguq5cIDAsw.jpeg)
+
 > ## [Create an account on mongodb's website](https://www.mongodb.com/cloud/atlas/register)
 
 ## Welcome to Atlas page
 
 - What is your goal? Build a new Application
-- What type of application are you building? Web Application
+- What type of application are you building? Other
 - What is your preffered language? JavaScript 😁
 - Finish!
 
@@ -31,7 +32,7 @@
 
 ## Click on Network Access under 🔒️ Security
 
-- Add IP address 
+- Add IP address
 - Click Allow access from anywhere
 
 ## Click on Database under Deployment
@@ -40,8 +41,7 @@
 - Once created, click on Connect
 - Choose Connect Your Application
 - Make sure that the "Driver" is Node.js
-> - ❗️❗️❗️Copy the connection String and save it in a memo for the moment, replace aswell the `<password>` with the password you created earlier. This is the URI for you database.❗️❗️❗️
-
+  > - ❗️❗️❗️Copy the connection String and save it in a memo for the moment, replace aswell the `<password>` with the password you created earlier. This is the URI for you database.❗️❗️❗️
 
 # HEROKU
 
