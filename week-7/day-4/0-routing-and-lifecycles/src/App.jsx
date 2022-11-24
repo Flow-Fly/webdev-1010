@@ -7,7 +7,6 @@ import AddCharacter from "./pages/AddCharacter"
 import NotFound from "./pages/NotFound"
 import Layout from "./components/Layout"
 import NavBar from "./components/NavBar"
-import { useState } from "react"
 /**
  * - npm i react-router-dom
  * - Configuring the router
