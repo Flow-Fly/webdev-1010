@@ -1,0 +1,18 @@
+.Layout {
+	display: flex;
+	justify-content: center;
+}
+
+.Layout nav {
+	position: fixed;
+	top: 10rem;
+	left: 0.5rem;
+}
+
+.Layout nav ul {
+	display: flex;
+	flex-direction: column;
+	gap: 1.2rem;
+	align-items: flex-start;
+	list-style-type: none;
+}

@@ -5,11 +5,16 @@ const Home = () => {
 
 	return (
 		<>
-			<h1>Home</h1>
+			<h1>Welcome to the Rick and Morty frontend</h1>
 			<button onClick={() => setShowCounter(!showCounter)}>
 				{showCounter ? "Hide" : "Show"} Counter
 			</button>
 			{showCounter && <LifeCycleCounter />}
+			<p>
+				{showCounter
+					? "The counter component has been mounted!"
+					: "The counter component is not mounted."}
+			</p>
 		</>
 	)
 }

@@ -5,8 +5,8 @@ import ListCharacters from "./pages/ListCharacters"
 import OneCharacter from "./pages/OneCharacter"
 import AddCharacter from "./pages/AddCharacter"
 import NotFound from "./pages/NotFound"
-import Layout from "./components/Layout"
-import NavBar from "./components/NavBar"
+import Layout from "./components/Layout/Layout"
+import NavBar from "./components/NavBar/NavBar"
 /**
  * - npm i react-router-dom
  * - Configuring the router
@@ -48,6 +48,12 @@ function App() {
 				<Route path="/characters/new" element={<AddCharacter />} /> */}
 				<Route path="*" element={<NotFound />} />
 			</Routes>
+			<footer>
+				<small>
+					Thanks to <a href="http://rickandmortyapi.com">rickandmortyapi</a> for
+					the data they provide
+				</small>
+			</footer>
 		</div>
 	)
 }

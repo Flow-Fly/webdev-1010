@@ -1,0 +1,22 @@
+.Card {
+	box-shadow: 0 0 0.5rem 0.25rem rgba(245, 245, 245, 0.15);
+	padding: 2rem 2rem;
+	border-radius: 0.5rem;
+	display: flex;
+	gap: 2rem;
+	width: calc(fit-content + 1rem);
+}
+
+.Card picture {
+	display: inline-block;
+	height: 4rem;
+	width: 4rem;
+	overflow: hidden;
+	border-radius: 50%;
+}
+
+.Card img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}

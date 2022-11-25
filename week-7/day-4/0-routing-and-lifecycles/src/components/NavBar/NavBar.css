@@ -1,0 +1,14 @@
+.NavBar ul {
+	display: flex;
+	gap: 1rem;
+	list-style-type: none;
+}
+.NavBar {
+	background-color: black;
+	height: 4.5rem;
+	display: flex;
+	align-items: center;
+	color: white;
+	min-width: 100vw;
+	box-shadow: 0 0.25rem 8px 2px rgba(0, 0, 0, 0.25);
+}
